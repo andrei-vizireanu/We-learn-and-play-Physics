@@ -1,0 +1,50 @@
+﻿Care este formula vitezei?;v=a/t;v=d/t;v=d*t;v=a*d;2;6
+Care este formula densității?;ρ=v/m;ρ=kg/m^3;ρ=m/v;ρ=g/cm^3;3;6
+Cât înseamnă 500 dm^2 în m^2?;50 m^2;5 m^2;50 000 m^2;550 m^2;2;6
+Liniarul este un instrument de măsură al volumului?;Da; ; ;Nu;4;6
+Distanța parcursă de un mobil care se depărtează de reper se calculează cu relația:;d=x1-x1;d=x2-x2;d=x2-x1-x2;d=x2-x1;4;6
+Care este relația de definiție a vitezei medii?;v=Δt/d;v=t2-t1/x2-x1;v=t1/x1;v=d/Δt;1;6
+Unitatea de măsură a vitezei este:;s^2;m/s^2;m^2;m/s;4;6
+Unitatea de măsură a densității este:;kg/m;kg/m^3;kg/m^2;kg/s;2;6
+Volumul unui corp de bronz (ρbronz=8750Kg/m^3) cu masa de 875kg este:;1 m^3;0,01 m^3;0,1 m^3;2 m^3;3;6
+Greutatea unui animal se poate măsura în kilograme?;Da; ; ;Nu;4;6
+Pentru măsurarea temperaturii se foloseşte:;dinamometrul;termometrul;balanta;cronometrul;2;7
+Unitatea de măsură a temperaturii în SI este:;°C;N;m;K;4;7
+Care corp este izolator termic?;cuprul;lemnul;fierul;aurul;2;7
+Unitatea de măsură pentru căldură este:;J;N;m^2;NJ;1;7
+Care este expresia matematică a căldurii specifice?;c=Q/ΔT;c=Q/m;c=Q/mΔT;c=Q/T;3;7
+Unitatea de măsură a capacității calorice este:;J/kg;J/K;J/KgK;J/g;2;7
+Care este expresia randamentului unui motor termic?;η=L/Q1;η=L;η=Q1;η=Q2;1;7
+Interacțiunile intermoleculare în lichide sunt:;mari;mici;foarte mici;nule;2;7
+Cum sunt interacțiunile intermoleculare în gaze?;mari;mici;foarte mici;nule;3;7
+Care din următoarele procese decurg cu cedare de căldură:;vaporizarea;condensarea;topirea;sublimarea;2;7
+Care este expresia presiunii?;P=F*S;P=S*F;P=F/S;P=a*S;3;8
+Unitatea de măsură a presiunii este:;N/m;N/m^3;N;N/m^2;4;8
+Presiunea datorată greutății unui lichid se numește:;P atmosferică;P hidrostatică;P atmosferică normală;normală;1;8
+Valoarea presiunii atmosferice normale este:;10^3Pa;10^5Pa;10Pa;1Pa;2;8
+Forța arhimedică este o mărime fizică:;scalară;vectorială;fundamentală;niciuna;2;8
+Care este formula lentilelor?;1/p'=1/f+1/p;1/p=1/f+p’;p=1/f+1/p’;p=1/f;1;8
+Pentru un ochi normal distanța vederii optime este:;50 cm;12 cm;10 cm;25 cm;4;8
+Expresia convergenței unei lentile este:;f;f^2;1/f;f^-2;3;8
+Care este formula principiului fundamental al hidrostaticii?;Δp=ρgΔh;Δh=ρh;Δh=ρgΔh;Δh=ρΔh;1;8
+Convergența unei lentile divergente este:;pozitiva;negativă;nulă;pozitvă şi negativă;2;8
+Care dintre mărimile fizice de mai jos are caracter vectorial?;energia;masa;densitatea;forța;4;9
+Unitatea de măsură în SI pentru puterea mecanică este:;J;N;W;Kg*m/s;3;9
+Care din următoarele ecuații reprezintă formula lui Galilei?;v^2=v0^2-2*a*x;v^2+v0^2=2*a*x;v^2=v0^2-2*a*(x-x0);v^2+v0^2-2*a*x0;3;9
+Când un obiect aflat inițial în repaus pe o suprafață orizontală este pus în mișcare, de îndată ce alunecarea începe, forța de frecare:;crește;descrește;rămâne aceeași;este nulă tot timpul;2;9
+De câte ori trebuie mărită viteza inițială a unui corp aruncat vertical în sus pentru a își dubla timpul de urcare?;de 2 ori;de 4 ori; de 1,5 ori;rămâne aceeaşi;1;9
+Un corp coboară pe un plan înclinat de unghi ɑ și înălțimea h0. Lucrul mecanic al reacțiunii planului, N, este:;m*g*h;m*g*h*sin(a);0;m*g*h*cos(a);3;9
+Unitatea de măsură în SI pentru energia cinetică este egală cu:;kg*m^2/s^2;kg*m/s^2;kg*m^2/s;kg*m/s;1;9
+Ecuația generală a mișcării rectilinii uniforme a unui mobil se scrie:;x+x0=v*t;x=v*t;x=x0+v*t;x=x0+v*(t-t0);4;9
+Care dintre mărimile fizice de mai jos este un scalar?;masa;viteza;forța;impulsul;1;9
+Teorema de variație a impusului mecanic al unui punct material se scrie:;F=Δp*Δt;F=Δp/Δt;Δp=m*Δv;Δp/Δt=m*a;2;9
+Energia cinetică medie a mișcării de translație a unei molecule de gaz este o măsură a:;presiunii gazului;temperaturii gazului;densităţii gazului;volumului de gaz;2;10
+Ecuația de stare a gazului ideal se scrie:;p*V=ν*R/T;p*T=ν*R*V;p*V=ν*R*T;p/R=ν*V*T;3;10
+Dacă pentru un generator de tensiune electromotoare E și rezistența internă r este îndeplinită conditia E=U spunem că generatorul funcționează:;în scurtcircuit;normal;în sarcină;în gol;4;10
+Randamentul ciclului Carnot are expresia:;η=1-T2/T1,T2<T1;η=T2/T1,T2<T1;η=1-T1/T1,T2>T1;η=T2/T1,T2>T1;1;10
+Randamentul ciclului Carnot care ar funcționa între aceleași temperaturi extreme ar fi:;același;mai mic;mai mare;100%;3;10
+Care din exemplele de mai jos reprezintă un motor termic?;centrala termică;motorul masinii de spălat rufe;motorul unui avion;motorul locomotivei electrice;3;10
+Punctul de întâlnire a cel puțin 3 fire/curenți se numește:;ramură;nod;ochi;latură;2;10
+Cu cât este egală R în funcție de parametrii conductorului?;R=ρ*l*S;R=ρ*S/l;R=l*S/ρ;R=ρ*l/S;4;10
+Care este mărimea fizică în SI a tensiunii electromotoare?;W;V;J;A;2;10
+Cu cât este egală sarcina unui electron?;-1,6*10^(-19)C;-1,5*10^(-19)C;-1,6*10^(-20)C;-1,6*10^(-18)C;1;10

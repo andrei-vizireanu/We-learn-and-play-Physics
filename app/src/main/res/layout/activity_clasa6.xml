@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_clasa6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="16dp"
+    tools:context="com.example.andrei.physics.Clasa6">
+
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button14"
+        android:backgroundTint="#3f51b5"
+        android:onClick="next"
+        android:textColor="@android:color/background_light"
+        style="@style/Widget.AppCompat.Button"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:id="@+id/viata1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/viata2"
+            android:layout_toEndOf="@+id/viata2"
+            app:srcCompat="@drawable/inima" />
+
+        <ImageView
+            android:id="@+id/viata2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView3"
+            app:srcCompat="@drawable/inima" />
+    </LinearLayout>
+
+
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button13"
+        android:backgroundTint="#3f51b5"
+        android:onClick="next"
+        android:textColor="@android:color/background_light"
+        style="@style/Widget.AppCompat.Button"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Întrebarea 1/10:"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button7"
+        android:layout_below="@+id/button7"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:onClick="apasa2"
+        android:text="v=d*t"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button8"
+        android:layout_below="@+id/button8"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:onClick="apasa2"
+        android:text="v=a*d"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button4"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:onClick="apasa2"
+        android:text="v=d/t"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button15"
+        android:layout_alignBottom="@+id/button15"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:text="Clasa a VI-a" />
+
+    <Button
+        android:id="@+id/button15"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:gravity="center"
+        android:onClick="meniu"
+        android:text="Alegerea clasei"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Vizi"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button10"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3f51b5"
+        android:gravity="center"
+        android:onClick="next"
+        android:text="Următorul"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:onClick="apasa2"
+        android:text="v=a*t"
+        android:textAlignment="center"
+        android:textAllCaps="false" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gandire"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button15"
+        android:layout_toStartOf="@+id/button15"
+        android:src="@drawable/gandire" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gresit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button15"
+        android:layout_toStartOf="@+id/button15"
+        android:src="@drawable/gresit" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/corect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button15"
+        android:layout_toStartOf="@+id/button15"
+        android:src="@drawable/corect" />
+
+</RelativeLayout>

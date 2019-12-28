@@ -1,0 +1,7 @@
+#Sat Dec 28 14:03:18 EET 2019
+base.0=/Users/vizireanuandrei-cristian/Desktop/Stuff/Andrei/IT/Apps/Ne invatam si jucam fizica/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/vizireanuandrei-cristian/Desktop/Stuff/Andrei/IT/Apps/Ne invatam si jucam fizica/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex

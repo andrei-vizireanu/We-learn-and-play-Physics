@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_help"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        tools:context="com.example.andrei.physics.Help">
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/textView12"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:gravity="center"
+        android:onClick="meniu"
+        android:text="Alegerea clasei"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:text="            „Ne jucăm și învățăm fizica” este un joc interactiv, care ajută orice copil de gimnaziu și liceu să își facă propria evaluare a cunoștințelor sale de fizică. Jocul este organizat pe clase, fiecare test având câte 10 întrebări, cu două sau patru variante de răspuns. Numai o variantă de răspuns este adevărată. Întrebările cu două variante de răspuns vor avea posibilitatea unei singure încercări pentru descoperirea variantei corecte, iar cele cu patru variante de răspuns vor avea două posibilități pentru descoperirea acesteia. Fiecare răspuns corect valorează 10 puncte. Jocul a fost gândit în așa fel încât să asigure o interfață prietenoasă. Scopul acestui joc este de a răspunde corect la cât mai multe întrebări pentru a lua un punctaj onorabil.  "
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="-102dp"
+        tools:layout_editor_absoluteY="574dp" />
+</RelativeLayout>

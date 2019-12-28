@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_clasa6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="16dp"
+    tools:context="com.example.andrei.physics.Clasa6">
+
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button14"
+        android:backgroundTint="#3f51b5"
+        android:onClick="next"
+        android:textColor="@android:color/background_light"
+        style="@style/Widget.AppCompat.Button"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button13"
+        android:backgroundTint="#3f51b5"
+        android:onClick="next"
+        android:textColor="@android:color/background_light"
+        style="@style/Widget.AppCompat.Button"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Intrebarea 1/10:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView3"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="v=d*t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button7"
+        android:layout_alignStart="@+id/button7"
+        android:layout_marginTop="16dp"
+        android:id="@+id/button8"
+        android:onClick="apasa2"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/button9"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif" />
+
+    <Button
+        android:text="v=a*d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/button9"
+        android:onClick="apasa2"
+        android:layout_below="@+id/button8"
+        android:layout_alignStart="@+id/button8"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="v=d/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/button7"
+        android:onClick="apasa2"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:text="Clasa a VI-a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_alignBaseline="@+id/button15"
+        android:layout_alignBottom="@+id/button15"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text=" Meniu principal "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button15"
+        style="@style/Widget.AppCompat.Button"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="meniu" />
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer2"
+        android:layout_above="@+id/button15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+    <TextView
+        android:text="Incercari:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button15" />
+
+    <TextView
+        android:text="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="24sp"
+        android:layout_marginStart="14dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/button14" />
+
+    <TextView
+        android:text="Cu cat este egala viteza?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView4"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Urmatorul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:backgroundTint="#3f51b5"
+        android:onClick="next"
+        android:textColor="@android:color/background_light"
+        style="@style/Widget.AppCompat.Button"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/button4"
+        android:onClick="apasa2"
+        android:textAllCaps="false"
+        android:text="v=a*t"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

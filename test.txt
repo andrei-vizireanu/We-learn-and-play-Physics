@@ -1,0 +1,10 @@
+﻿Care este formula vitezei?;v=a*t;v=d/t;v=d*t;v=a*d;2
+Care este formula densitatii?;ρ=v/m       ;ρ=kg/m^3;ρ=m/v       ;ρ=g/cm^3;3
+Nu-i asa ca Vizi e bun la mate?;Da;Absolut;Nu;Deloc;2
+E bun calculatorul tau?;Da;Nu;Nu stiu;Cred;1
+Cati bani cheltuiesti pe zi?;60lei;80lei;10lei;50lei;1
+Cati bani cheltuiesti pe luna?;200lei;250lei;300lei;270lei;1
+Cate litere are o tastatura?;105;110;100;120;1
+Cate linii RATC sunt in Constanta?;20;18;10;2;1
+Cate ore are o zi?;24h;12h;6h;7h;1
+In ce an ne aflam?;2016;2000;2017;2020;1

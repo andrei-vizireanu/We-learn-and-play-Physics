@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.andrei.physics"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Ne jucăm și invățăm fizica"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.andrei.physics.Clasa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.andrei.physics.Clasa6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.andrei.physics.PaginaPrincipala"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.andrei.physics.PaginaFinala" />
+        <activity android:name="com.example.andrei.physics.Scoruri" />
+        <activity android:name="com.example.andrei.physics.Help" />
+    </application>
+
+</manifest>
